@@ -1,5 +1,9 @@
 <template>
-    <div><MdiAccountBox/>{{ title }}<MdiAccountBoxOutline/></div>
+    <div>
+        <MdiAccountBox/>
+        {{ title }}
+        <MdiAccountBoxOutline/>
+    </div>
 </template>
 
 <script lang="ts" setup>

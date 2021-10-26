@@ -16,6 +16,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.vue$/,
+                use: ['vue-loader'],
+            },
+            {
                 test: /\.tsx?$/,
                 use: [
                     {
@@ -26,10 +30,6 @@ module.exports = {
                         },
                     },
                 ],
-            },
-            {
-                test: /\.vue$/,
-                use: ['vue-loader'],
             },
         ],
     },

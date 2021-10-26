@@ -27,11 +27,6 @@
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.5.tgz#9283c9ce5b289a3c4f61c12757469e59377f81f3"
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
-"@iconify/json-tools@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.npmjs.org/@iconify/json-tools/-/json-tools-1.0.10.tgz#d9a7050dbbe8bb29d684d4b3f9446ed2d0bea3cc"
-  integrity sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
-
 "@iconify/json@^1.1.413":
   version "1.1.413"
   resolved "https://registry.npmjs.org/@iconify/json/-/json-1.1.413.tgz#95a6f2a4abed1da407e76dc238af2f9486aeceeb"
@@ -42,10 +37,10 @@
   resolved "https://registry.npmjs.org/@iconify/types/-/types-1.0.10.tgz#951122c19d3717e308a3ceac6eaafda27bd9993d"
   integrity sha512-SN3z6einVeUckDQiE8p4POF7X4hk4/y2+a7a4ogJOCxX5XT6z1zXNN8dwS5O1vloXpc6mkHizRZm2qPnhK6NnQ==
 
-"@iconify/utils@^1.0.10":
-  version "1.0.15"
-  resolved "https://registry.npmjs.org/@iconify/utils/-/utils-1.0.15.tgz#afcf49ec8a1437a0103697d2a674246c675209d4"
-  integrity sha512-ENcZMIaU6niedrY9rNMPofYOlN+d/7k4sDxxQbkcuu/MUyUrVugDLUeNDln9CmNcrwbHzBAoItkGQ21H5gXiPw==
+"@iconify/utils@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.npmjs.org/@iconify/utils/-/utils-1.0.18.tgz#569737b78218034d19f3f067af9196293a71f145"
+  integrity sha512-uCfJ7FdTxDk1DLKsvynTsYX4LnkGIDw+LCpoY0mRdl+NrNPCjYZ8HHYs4xzmo7cryRe0ZT0yuF2f3oipPIHn8w==
   dependencies:
     "@iconify/types" "^1.0.10"
 
@@ -1622,10 +1617,10 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-local-pkg@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/local-pkg/-/local-pkg-0.3.0.tgz#9f43ea682a085f0a63a184a8aaed109ae02483ce"
-  integrity sha512-JapWObmC38atpkIh2Y8M3223TP+GsdtR4s28Kut7Q98PT6MX7VwvAwPs2/rxpwi+hbDiHM4+dIvRCU67k+qHag==
+local-pkg@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/local-pkg/-/local-pkg-0.4.0.tgz#e6221171813d5a0812dd84fa80ffb1c8fcc00531"
+  integrity sha512-2XBWjO/v63JeR1HPzLJxdTVRQDB84Av2p2KtBA5ahvpyLUPubcAU6iXlAJrONcY7aSqgJhXxElAnKtnYsRolPQ==
   dependencies:
     mlly "^0.2.2"
 
@@ -1756,9 +1751,9 @@ mkdirp@^0.5.5:
     minimist "^1.2.5"
 
 mlly@^0.2.2:
-  version "0.2.6"
-  resolved "https://registry.npmjs.org/mlly/-/mlly-0.2.6.tgz#6becb976c726ad9b4432662b7f8eb3e8d74b449c"
-  integrity sha512-Wzv+ONQTQLsEZ6/Hyp7yc+EpOv52DrPGN497S3ZN66OuYdJkwo9BoVTM+kefNfGRzTKu2qmW4vLp5CbX9HfoYQ==
+  version "0.2.10"
+  resolved "https://registry.npmjs.org/mlly/-/mlly-0.2.10.tgz#645902c9761dc6b5ded174b8e717147fe52e4893"
+  integrity sha512-xfyW6c2QBGArtctzNnTV5leOKX8nOMz2simeubtXofdsdSJFSNw+Ncvrs8kxcN3pBrQLXuYBHNFV6NgZ5Ryf4A==
   dependencies:
     import-meta-resolve "^1.1.1"
 
@@ -2558,24 +2553,23 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-icons@^0.12.13:
-  version "0.12.13"
-  resolved "https://registry.npmjs.org/unplugin-icons/-/unplugin-icons-0.12.13.tgz#6b22f517b6ef0698fe79aa225a0f51194d5c5e54"
-  integrity sha512-5wAnY1qwa1ENeBdnNxKBd8VVbfz5KkjFa6X33Ynoz381J03ZUHwumvcbSQVgmQDwY1eOmM51lFmdwqQA/8pkRw==
+unplugin-icons@^0.12.17:
+  version "0.12.17"
+  resolved "https://registry.npmjs.org/unplugin-icons/-/unplugin-icons-0.12.17.tgz#309fc513d7799a2f9ea509a1f38a01dedf229f34"
+  integrity sha512-y6KNKlwcLXlbfpZY48lO0blsH/uwHbvxD2sgCaw1AhgFk9Bjw7hA1kQxhUWPAIRySeobve2YP7HGKLHoIctXPA==
   dependencies:
     "@antfu/install-pkg" "^0.1.0"
     "@antfu/utils" "^0.3.0"
-    "@iconify/json-tools" "^1.0.10"
-    "@iconify/utils" "^1.0.10"
+    "@iconify/utils" "^1.0.18"
     debug "^4.3.2"
     kolorist "^1.5.0"
-    local-pkg "^0.3.0"
-    unplugin "^0.2.16"
+    local-pkg "^0.4.0"
+    unplugin "^0.2.18"
 
-unplugin@^0.2.16:
-  version "0.2.16"
-  resolved "https://registry.npmjs.org/unplugin/-/unplugin-0.2.16.tgz#6f34e9f5068ca3ec92a36b016f47b5ad8bb875ca"
-  integrity sha512-KkXatHba0baJszSHW+2e8EQU/5Bz7rYwzYXu8wUeq97tE6K3wvub+7OWSuRv04LttvzNLsJ2jXEyR35gofv74Q==
+unplugin@^0.2.18:
+  version "0.2.18"
+  resolved "https://registry.npmjs.org/unplugin/-/unplugin-0.2.18.tgz#0ce86d63bb3acb990e16b1f922bf60f3c2aa8f62"
+  integrity sha512-6FkdaEpq0pV5CT/GaxDmwVaBkR7AnrpYwl+F5AEFiJqyeM5n8faQPqmw1nUCWwcUBGfAByP3ENVFEyq0+UQtaQ==
   dependencies:
     webpack-virtual-modules "^0.4.3"
 
